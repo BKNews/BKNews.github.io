@@ -13,7 +13,6 @@ pages:
     slug: This story was written for the Columbia Journalism School
     url: https://docs.google.com/document/d/10fKvFmX5ED3KmCck1AG-r2yESIpSHt8LoofJ7iT6BJw/edit
   - type: html
-    title: Click for analysis of "Black-owned businesses in NYC left out of the 2020 PPP loan"
-    slug: second-project
+    title: Click for the analysis of "Black-owned businesses in NYC left out of the 2020 PPP loan."
+    slug: This analysis was done for the Columbia Journalism School
     filepath: NewYorkFirstPPP.html
-    
