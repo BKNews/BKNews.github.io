@@ -10,13 +10,13 @@ links:
 pages:
   - type: gdoc
     title: Black-owned businesses in NYC left out of the 2020 PPP loan
-    slug: Article1
+    slug: /Article1
     url: https://docs.google.com/document/d/10fKvFmX5ED3KmCck1AG-r2yESIpSHt8LoofJ7iT6BJw/edit
   - type: html
     title: Click for analysis of "Black-owned businesses in NYC left out of the 2020 PPP loan"
-    slug: Article2
+    slug: /Article2
     filepath: NewYorkFirstPPP.html
   - type: raw
     title: Click for ScrollyTelling version of "Sex-trafficked as teenagers, Korean survivors of Japanese wartime sexual slavery still fight for justice"
-    slug: ccrollytelling
+    slug: /scrollytelling
     filepath: index.html
