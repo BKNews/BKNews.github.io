@@ -74,16 +74,22 @@ nav {
 }
 
 .intro__hed {
+  max-width: 80rem;
   font-size: 2em;
   margin: 2rem auto 0.5rem auto;
+  text-align: left;
 }
 
 .intro__dek {
   color: #8a8a8a;
+  padding-bottom: 2rem ;
+  padding-top: 2rem ;
+  font-size: 1em;
+  text-align: left;
 }
 
 #intro {
-  margin-bottom: 320px;
+  margin-bottom: 20px;
 }
 
 #outro {

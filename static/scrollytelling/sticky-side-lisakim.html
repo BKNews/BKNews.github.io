@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="style.css" />
 
     <style>
+      p {
+        line-height: 1.3;
+      }
+
       #scrolly 
       /* background */
       {
@@ -19,7 +23,6 @@
         background-color: #fff;
         padding: 2rem;
       }
-
       #scrolly > * {
         -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -34,13 +37,15 @@
       }
 
       .sticky-thing {
+        /* ease into next image */
+        transition: background-image .3s; 
         position: -webkit-sticky;
         position: sticky;
         width: 100%;
         margin: 0;
         background-color: #8a8a8a;
         /* background-image: url('images/IMG_1684.png'); */
-        background-size: contain;
+        background-size: cover;
         background-position: center center;
         z-index: 0;
         top: 12.5vh;
@@ -72,7 +77,7 @@
       }
 
       .step.is-active {
-        background-color: rgb(238, 226, 121);
+        background-color: rgb(245, 242, 73);
         color: #333030;
       }
 
@@ -83,12 +88,32 @@
         font-size: 1.3rem;
         text-align: justify;
       }
+
+      /* adjusting the content size  */
+      main {max-width: 900px; 
+      margin-left: auto; 
+      margin-right: auto;
+      }
+
+      .body {
+        text-align: left;
+        padding: .5rem;
+        font-size: 1.5rem;
+        max-width: 100rem;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: .5rem;
+        max-width: 100rem;
+      }
     </style>
   </head>
 
   <body>
     <main>
-      <nav>
+      <!-- <nav>
         <a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a>
         <div class="nav__examples">
           <p>Examples:</p>
@@ -97,20 +122,21 @@
           <a href="sticky-side.html">Sticky Side</a>
           <a href="sticky-overlay.html">Sticky Overlay</a>
         </div>
-      </nav>
+      </nav> -->
       <section id="intro">
         <h1 class="intro__hed">Sex-trafficked as teenagers, Korean survivors of Japanese wartime sexual slavery still fight for justice<h1>
-        <h2 class="intro__dek">
-          Start scrolling to read the summarized version
-        </h2>
-        <h3 class="byline">
-          By Lisa Kim
-        </h3>
-      </section>
+          <p class="intro__dek">
+            BY LISA KIM
+          </p>
+        <!-- <p class="body">
+          This is where the text would go. This is where the text would go. This is where the text would go. This is where the text would go. This is where the text would go.
+          </p> -->
+        </section>
+
 
       <section id="scrolly">
         <article>
-          <div class="step" data-step="Halmoni Lee Ok-sun" data-image= "url('images/IMG_1684.png')">
+          <div class="step" data-step="" data-image= "url('images/IMG_1684.png')">
             <p>Lee Ok-sun, 94, was kidnapped and forced into sexual enslavement by the Japanese military during World War II. She was 16 years old. She has testified too many times about the atrocity since she broke her silence more than two decades ago. She attended the weekly protest on March 24 despite the pandemic, seeking justice. </p>
           </div>
           <div class="step" data-step="" data-image = "url('images/IMG_1705.jpeg')">
@@ -119,29 +145,25 @@
           <div class="step" data-step="" data-image= "url('images/201901258333.png')">
             <p>Lee is one of the hundreds of thousands of teenage girls, mostly from Korea, but also from Japanese colonies across Asia, who were coerced into sexual slavery from the 1930s until the end of the war. Some girls were threatened to cooperate in order to pay off their family debt, and some were deceived, told that they would work at factories. </p>
           </div>
-          <div class="step" data-step="Statue of Peace" data-image= "url('images/IMGP2115.jpeg')">
+          <div class="step" data-step="" data-image= "url('images/IMGP2115.jpeg')">
             <p>At the 1484th Wednesday Demonstration, the 4-foot-tall Statue of Peace stood a few steps in front of Lee. It is a bronze statue of a young girl in traditional Korean clothes, without shoes, clenched fists, facing the Japanese the Embassy. The statue symbolizes the estimated 200,000 girls who were sex-trafficked.</p>
           </div>
-          <div class="step" data-step="Yellow Butterflies " data-image="url('images/IMGP2129-1.jpeg')">
+          <div class="step" data-step="" data-image= "url('images/IMGP2129-1.jpeg')">
             <p>Survivors, activists and supporters have been gathering outside the Japanese Embassy in northern Seoul every Wednesday at noon since 1992. Behind Lee were yellow butterflies that are a symbol of survivors. They symbolize the hope that survivors will become free at last from the past, which is only possible with justice.</p>
           </div>
-          </article>
-
-
-        <!-- <section id="scrolly2">
-            <article2>
-              <div class="step2" data-step="Halmoni Lee Ok-sun">
-                <p>Lee Ok-sun, 94, was kidnapped and forced into sexual enslavement by the Japanese military during World War II. She was 16 years old. She has testified too many times about the atrocity since she broke her silence more than two decades ago. She attended the weekly protest on March 24 despite the pandemic, seeking justice. </p>
-              </div>
-              <div class="step2" data-step="">
-                <p>“They hit the young girls and I when we refused,” Lee said at protest. When she resisted, Japanese soldiers slit her dress, cutting her as well, she said. Blood ran down her abdomen. But that didn’t stop them from raping her, she said, her voice breaking.</p>
-              </div>
-        </article2> -->
-
+        </article>
         <div class="sticky-thing">
           <p>0</p>
         </div>
       </section>
+
+      
+        <!-- <section id="intro">
+        <p class="body">
+        Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. 
+        </p>
+      </section> -->
+
 
       <section id="outro"></section>
     </main>
@@ -160,27 +182,8 @@
       var h = document.createElement('h1');
       document.querySelector('h1').style.color = 'black';
       document.querySelector('h1').style.fontFamily = 'Arial';
-      document.querySelector('h1').style.textAlign = 'center';
+      document.querySelector('h1').style.textAlign = 'left';
       document.querySelector('h1').style.fontSize = 'xxx-large';
-
-      var h2 = document.createElement('h2');
-      document.querySelector('h2').style.color = 'gray';
-      document.querySelector('h2').style.fontFamily = 'Arial';
-      document.querySelector('h2').style.textAlign = 'center';
-      document.querySelector('h2').style.fontSize = 'x-large';
-
-      var h3 = document.createElement('h3');
-      document.querySelector('h3').style.color = 'black';
-      document.querySelector('h3').style.fontFamily = 'Arial';
-      document.querySelector('h3').style.textAlign = 'center';
-      document.querySelector('h3').style.fontSize = 'x-large';
-
-
-    //   var main2 = document.querySelector("main");
-    //   var scrolly2 = main2.querySelector("#scrolly2");
-    //   var sticky2 = scrolly2.querySelector(".sticky-thing");
-    //   var article2 = scrolly2.querySelector("article2");
-    //   var steps2 = article2.querySelectorAll(".step2");
 
       // initialize the scrollama
       var scroller = scrollama();
@@ -199,13 +202,20 @@
         // update graphic based on step
         sticky.querySelector("p").innerText = el.dataset.step;
         sticky.style.backgroundImage = el.dataset.image;
+
+        // make the THIRD image's background-size: contain
+        console.log(el.dataset.image);
+        if(el.dataset.image == "url('images/201901258333.png')") {
+          sticky.style.backgroundSize = 'contain';} 
+        else {
+          sticky.style.backgroundSize = 'cover';}
       }
 
       function init() {
         scroller
           .setup({
             step: "#scrolly article .step",
-            offset: 0.3,
+            offset: 0.4,
             debug: false
           })
           .onStepEnter(handleStepEnter);
