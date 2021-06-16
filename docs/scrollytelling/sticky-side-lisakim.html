@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Lisa Kim: Sticky Side</title>
+    <meta name="description" content="Scrollama: Sticky Side Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      p {
+        line-height: 1.3;
+      }
+
+      #scrolly 
+      /* background */
+      {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #fff;
+        padding: 2rem;
+      }
+      #scrolly > * {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+
+      article {
+        position: relative;
+        padding: 0 1rem;
+        max-width: 25rem;
+        /* max-height: 40rem; */
+      }
+
+      .sticky-thing {
+        /* ease into next image */
+        transition: background-image .3s; 
+        position: -webkit-sticky;
+        position: sticky;
+        width: 100%;
+        margin: 0;
+        background-color: #8a8a8a;
+        /* background-image: url('images/IMG_1684.png'); */
+        background-size: cover;
+        background-position: center center;
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sticky-thing p {
+        padding: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        color: rgb(248, 242, 242);
+        vertical-align: text-top;
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        background-color: #8a8686;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active {
+        background-color: rgb(245, 242, 73);
+        color: #333030;
+      }
+
+      .step p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem;
+        font-size: 1.3rem;
+        text-align: justify;
+      }
+
+      /* adjusting the content size  */
+      main {max-width: 900px; 
+      margin-left: auto; 
+      margin-right: auto;
+      }
+
+      .body {
+        text-align: left;
+        padding: .5rem;
+        font-size: 1.5rem;
+        max-width: 100rem;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: .5rem;
+        max-width: 100rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <!-- <nav>
+        <a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a>
+        <div class="nav__examples">
+          <p>Examples:</p>
+          <a href="basic.html">Basic</a>
+          <a href="progress.html">Progress</a>
+          <a href="sticky-side.html">Sticky Side</a>
+          <a href="sticky-overlay.html">Sticky Overlay</a>
+        </div>
+      </nav> -->
+      <section id="intro">
+        <h1 class="intro__hed">Sex-trafficked as teenagers, Korean survivors of Japanese wartime sexual slavery still fight for justice<h1>
+          <p class="intro__dek">
+            BY LISA KIM
+          </p>
+        <!-- <p class="body">
+          This is where the text would go. This is where the text would go. This is where the text would go. This is where the text would go. This is where the text would go.
+          </p> -->
+        </section>
+
+
+      <section id="scrolly">
+        <article>
+          <div class="step" data-step="" data-image= "url('images/IMG_1684.png')">
+            <p>Lee Ok-sun, 94, was kidnapped and forced into sexual enslavement by the Japanese military during World War II. She was 16 years old. She has testified too many times about the atrocity since she broke her silence more than two decades ago. She attended the weekly protest on March 24 despite the pandemic, seeking justice. </p>
+          </div>
+          <div class="step" data-step="" data-image = "url('images/IMG_1705.jpeg')">
+            <p>“They hit the young girls and I when we refused,” Lee said at protest. When she resisted, Japanese soldiers slit her dress, cutting her as well, she said. Blood ran down her abdomen. But that didn’t stop them from raping her, she said, her voice breaking.</p>
+          </div>
+          <div class="step" data-step="" data-image= "url('images/201901258333.png')">
+            <p>Lee is one of the hundreds of thousands of teenage girls, mostly from Korea, but also from Japanese colonies across Asia, who were coerced into sexual slavery from the 1930s until the end of the war. Some girls were threatened to cooperate in order to pay off their family debt, and some were deceived, told that they would work at factories. </p>
+          </div>
+          <div class="step" data-step="" data-image= "url('images/IMGP2115.jpeg')">
+            <p>At the 1484th Wednesday Demonstration, the 4-foot-tall Statue of Peace stood a few steps in front of Lee. It is a bronze statue of a young girl in traditional Korean clothes, without shoes, clenched fists, facing the Japanese the Embassy. The statue symbolizes the estimated 200,000 girls who were sex-trafficked.</p>
+          </div>
+          <div class="step" data-step="" data-image= "url('images/IMGP2129-1.jpeg')">
+            <p>Survivors, activists and supporters have been gathering outside the Japanese Embassy in northern Seoul every Wednesday at noon since 1992. Behind Lee were yellow butterflies that are a symbol of survivors. They symbolize the hope that survivors will become free at last from the past, which is only possible with justice.</p>
+          </div>
+        </article>
+        <div class="sticky-thing">
+          <p>0</p>
+        </div>
+      </section>
+
+      
+        <!-- <section id="intro">
+        <p class="body">
+        Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. Rest of the article would go here. 
+        </p>
+      </section> -->
+
+
+      <section id="outro"></section>
+    </main>
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+      // using d3 for convenience
+      var main = document.querySelector("main");
+      var scrolly = main.querySelector("#scrolly");
+      var sticky = scrolly.querySelector(".sticky-thing");
+      var article = scrolly.querySelector("article");
+      var steps = article.querySelectorAll(".step");
+
+      var h = document.createElement('h1');
+      document.querySelector('h1').style.color = 'black';
+      document.querySelector('h1').style.fontFamily = 'Arial';
+      document.querySelector('h1').style.textAlign = 'left';
+      document.querySelector('h1').style.fontSize = 'xxx-large';
+
+      // initialize the scrollama
+      var scroller = scrollama();
+    //   var scroller2 = scrollama2();
+
+      // scrollama event handlers
+      function handleStepEnter(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+
+        // remove is-active from all steps
+        // then add is-active to this step
+        steps.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+
+        // update graphic based on step
+        sticky.querySelector("p").innerText = el.dataset.step;
+        sticky.style.backgroundImage = el.dataset.image;
+
+        // make the THIRD image's background-size: contain
+        console.log(el.dataset.image);
+        if(el.dataset.image == "url('images/201901258333.png')") {
+          sticky.style.backgroundSize = 'contain';} 
+        else {
+          sticky.style.backgroundSize = 'cover';}
+      }
+
+      function init() {
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 0.4,
+            debug: false
+          })
+          .onStepEnter(handleStepEnter);
+
+        // setup resize event
+        window.addEventListener("resize", scroller.resize);
+      }
+
+      // kick things off
+      init();
+    </script>
+  </body>
+</html>
