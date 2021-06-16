@@ -13,7 +13,7 @@ pages:
     slug: Article1
     url: https://docs.google.com/document/d/10fKvFmX5ED3KmCck1AG-r2yESIpSHt8LoofJ7iT6BJw/edit
   - type: html
-    title: Click for the analysis of "Black-owned businesses in NYC left out of the 2020 PPP loan"
+    title: Click for analysis of "Black-owned businesses in NYC left out of the 2020 PPP loan"
     slug: Article2
     filepath: NewYorkFirstPPP.html
   - type: html
