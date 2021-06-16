@@ -16,7 +16,7 @@ pages:
     title: Click for analysis of "Black-owned businesses in NYC left out of the 2020 PPP loan"
     slug: Article2
     filepath: NewYorkFirstPPP.html
-  - type: html
+  - type: raw
     title: Click for ScrollyTelling version of "Sex-trafficked as teenagers, Korean survivors of Japanese wartime sexual slavery still fight for justice"
-    slug: Article3
-    filepath: index.html
+    slug: ScrollyTelling
+    filepath: index.html 
