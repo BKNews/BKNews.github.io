@@ -23,4 +23,4 @@ pages:
   - type: raw
     title: News App
     slug: newsapp
-    filepath: index.html
+    filepath: public/index.html
