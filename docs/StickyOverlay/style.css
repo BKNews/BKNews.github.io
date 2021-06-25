@@ -22,7 +22,7 @@ h2,
 h3,
 h4,
 a {
-  margin: 0;
+  margin: 1;
   font-weight: 400;
 }
 
@@ -74,22 +74,16 @@ nav {
 }
 
 .intro__hed {
-  max-width: 80rem;
   font-size: 2em;
   margin: 2rem auto 0.5rem auto;
-  text-align: left;
 }
 
 .intro__dek {
   color: #8a8a8a;
-  padding-bottom: 2rem ;
-  padding-top: 2rem ;
-  font-size: 1em;
-  text-align: left;
 }
 
 #intro {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 #outro {

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Lisa Kim: Sticky Overlay</title>
+    <meta name="description" content="Scrollama: Sticky Side Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #scrolly {
+        position: relative;
+        background-color: #f3f3f3;
+        padding: 1rem;
+      }
+      #scrolly2 {
+        position: relative;
+        background-color: #f3f3f3;
+        padding: 1rem;
+      }
+
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 100rem;
+        margin: 0 auto;
+      }
+
+      .sticky-thing {
+        position: -webkit-sticky;
+        position: sticky;
+        opacity: 0.6;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        /* background-color: #8a8a8a; */
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("images/film_NM.jpeg");
+        background-size: cover;
+        background-position: center center
+      }
+      .sticky-thing2 {
+        position: -webkit-sticky;
+        position: sticky;
+        opacity: 0.6;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        /* background-color: #8a8a8a; */
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("images/film_NM.jpeg");
+        background-size: cover;
+        background-position: center center
+      }
+
+      .sticky-thing p {
+        font-size: 8rem;
+        font-weight: 900;
+        color: rgb(247, 242, 242);
+      }
+      .sticky-thing2 p {
+        font-size: 8rem;
+        font-weight: 900;
+        color: rgb(245, 243, 243);
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        color: rgb(243, 240, 240);
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active p {
+        /* background-color: goldenrod; */
+        color: #111111;
+      }
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+        /* background-color: #3b3b3b; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section id="intro">
+        <h1 class="intro__hed">Sex-trafficked as teenagers, Korean survivors of Japanese wartime sexual slavery still fight for justice<h1>
+          <p class="intro__dek">
+            BY LISA KIM
+          </p>
+        <!-- <p class="body">
+          This is where the text would go. This is where the text would go. This is where the text would go. This is where the text would go. This is where the text would go.
+          </p> -->
+        </section>
+
+      <section id="lede">
+        <p class = "plain_graphs">
+        This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go.
+        </p>
+      </section>
+
+      <section id="scrolly">
+        <div class="sticky-thing">
+          <p></p>
+        </div>
+        <article>
+            <div class="step" data-step="" data-image= "url('images/IMG_1684.png')">
+              <p>Lee Ok-sun, 94, was kidnapped and forced into sexual enslavement by the Japanese military during World War II. She was 16 years old. She has testified too many times about the atrocity since she broke her silence more than two decades ago. She attended the weekly protest on March 24 despite the pandemic, seeking justice.
+                Lee Ok-sun, 94, was kidnapped and forced into sexual enslavement by the Japanese military during World War II. She was 16 years old. She has testified too many times about the atrocity since she broke her silence more than two decades ago. She attended the weekly protest on March 24 despite the pandemic, seeking justice.
+                Lee Ok-sun, 94, was kidnapped and forced into sexual enslavement by the Japanese military during World War II. She was 16 years old. She has testified too many times about the atrocity since she broke her silence more than two decades ago. She attended the weekly protest on March 24 despite the pandemic, seeking justice. </p>
+            </div>
+            <div class="step" data-step="" data-image = "url('images/IMG_1705.jpeg')">
+              <p>“They hit the young girls and I when we refused,” Lee said at protest. When she resisted, Japanese soldiers slit her dress, cutting her as well, she said. Blood ran down her abdomen. But that didn’t stop them from raping her, she said, her voice breaking.
+                “They hit the young girls and I when we refused,” Lee said at protest. When she resisted, Japanese soldiers slit her dress, cutting her as well, she said. Blood ran down her abdomen. But that didn’t stop them from raping her, she said, her voice breaking.
+                “They hit the young girls and I when we refused,” Lee said at protest. When she resisted, Japanese soldiers slit her dress, cutting her as well, she said. Blood ran down her abdomen. But that didn’t stop them from raping her, she said, her voice breaking.
+              </p>
+            </div>
+          </article> 
+      </section>
+      <p class = "plain_graphs">
+        This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go.
+        This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go.
+        This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go.
+      </p>
+      
+      <section id="scrolly2">
+        <div class="sticky-thing2">
+          <p></p>
+        </div>
+        <article>
+          <div class="step" data-step="" data-image= "url('images/IMGP2115.jpeg')">
+            <p>
+              At the 1484th Wednesday Demonstration, the 4-foot-tall Statue of Peace stood a few steps in front of Lee. It is a bronze statue of a young girl in traditional Korean clothes, without shoes, clenched fists, facing the Japanese the Embassy. The statue symbolizes the estimated 200,000 girls who were sex-trafficked.
+              At the 1484th Wednesday Demonstration, the 4-foot-tall Statue of Peace stood a few steps in front of Lee. It is a bronze statue of a young girl in traditional Korean clothes, without shoes, clenched fists, facing the Japanese the Embassy. The statue symbolizes the estimated 200,000 girls who were sex-trafficked.
+              At the 1484th Wednesday Demonstration, the 4-foot-tall Statue of Peace stood a few steps in front of Lee. It is a bronze statue of a young girl in traditional Korean clothes, without shoes, clenched fists, facing the Japanese the Embassy. The statue symbolizes the estimated 200,000 girls who were sex-trafficked.
+            </p>
+          </div>
+          <div class="step" data-step="" data-image= "url('images/IMGP2129-1.jpeg')">
+            <p>Survivors, activists and supporters have been gathering outside the Japanese Embassy in northern Seoul every Wednesday at noon since 1992. Behind Lee were yellow butterflies that are a symbol of survivors. They symbolize the hope that survivors will become free at last from the past, which is only possible with justice.
+              Survivors, activists and supporters have been gathering outside the Japanese Embassy in northern Seoul every Wednesday at noon since 1992. Behind Lee were yellow butterflies that are a symbol of survivors. They symbolize the hope that survivors will become free at last from the past, which is only possible with justice.
+              Survivors, activists and supporters have been gathering outside the Japanese Embassy in northern Seoul every Wednesday at noon since 1992. Behind Lee were yellow butterflies that are a symbol of survivors. They symbolize the hope that survivors will become free at last from the past, which is only possible with justice.
+            </p>
+            </div>
+          </article>
+      </section>
+      <p class = "plain_graphs2">
+        This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go.
+        This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go.
+        This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go. This is were the article would go.
+      </p>
+    </main>
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+      // using d3 for convenience
+      var main = document.querySelector("main");
+        var scrolly = main.querySelector("#scrolly");
+        var sticky = scrolly.querySelector(".sticky-thing");
+        var article = scrolly.querySelector("article");
+        var steps = article.querySelectorAll(".step");
+        var scrolly2 = main.querySelector("#scrolly2");
+        var sticky2 = scrolly2.querySelector(".sticky-thing2");
+        var article2 = scrolly2.querySelector("article");
+        var steps2 = article2.querySelectorAll(".step");
+
+      // initialize the scrollama
+      var scroller = scrollama();
+      var scroller2 = scrollama();
+
+      // scrollama event handlers
+      function handleStepEnter(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+
+        // remove is-active from all steps
+        // then add is-active to this step
+        steps.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+
+        // update graphic based on step
+        // sticky.querySelector("p").innerText = el.dataset.step;
+        sticky.style.backgroundImage = el.dataset.image;
+
+      }
+      
+      function handleStepEnter2(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+
+        // remove is-active from all steps
+        // then add is-active to this step
+        steps2.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+
+        // update graphic based on step
+        // sticky.querySelector("p").innerText = el.dataset.step;
+        sticky2.style.backgroundImage = el.dataset.image;
+        
+      }
+
+      function init() {
+        // 2. setup the scroller passing options
+        // 		this will also initialize trigger observations
+        // 3. bind scrollama event handlers (this can be chained like below)
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 0.33,
+            debug: false
+          })
+          .onStepEnter(handleStepEnter);
+          
+          scroller2
+          .setup({
+            step: "#scrolly2 article .step",
+            offset: 0.33,
+            debug: false
+          })
+          .onStepEnter(handleStepEnter2);
+
+        // setup resize event
+        window.addEventListener("resize", scroller.resize);
+        window.addEventListener("resize", scroller2.resize);
+      }
+
+      // kick things off
+      init();
+    </script>
+    
+  </body>
+</html>
