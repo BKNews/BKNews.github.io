@@ -14,8 +14,8 @@ pages:
     url: https://docs.google.com/document/d/10fKvFmX5ED3KmCck1AG-r2yESIpSHt8LoofJ7iT6BJw/edit
   - type: raw
     title: Click for ScrollyTelling version of "Sex-trafficked as teenagers, Korean survivors of Japanese wartime sexual slavery still fight for justice"
-    slug: scrollytelling
-    filepath: index.html
+    slug: StickyOverlay
+    filepath: sticky-overlay.html
   - type: raw
     title: News App
     slug: newsapp
