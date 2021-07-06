@@ -1,4 +1,4 @@
-name: Bo-gyung "Lisa" Kim
+name: Lisa Kim
 bio: I'm a data journalist studying at the Columbia Graduate School of Journalism.
 links:
   - target: mailto:bk2776@columbia.edu
@@ -20,3 +20,7 @@ pages:
     title: News App
     slug: newsapp
     filepath: public/index.html
+  - type: raw
+    title: homework
+    slug: 05-illustrator
+    filepath: index.html

@@ -1,0 +1,22 @@
+{
+    "fonts": [
+        {
+            "aifont": "Impact",
+            "family": "Amatic SC",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "HelveticaNeue-Bold",
+            "family": "Helvetica Neue",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "HelveticaNeue",
+            "family": "Helvetica Neue",
+            "weight": "400",
+            "style": ""
+        }
+    ]
+}

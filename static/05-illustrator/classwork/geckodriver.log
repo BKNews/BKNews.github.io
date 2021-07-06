@@ -1,0 +1,13 @@
+1624368222799	geckodriver	INFO	Listening on 127.0.0.1:63040
+1624368223678	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/l0/h__2c37508b8pl19zp232ycr0000gn/T/rust_mozprofile0sYMwQ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1624368229888	Marionette	INFO	Listening on port 63052
+1624368229934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624368229951	Marionette	ERROR	[19] No reply from Marionette:Register
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1624386431402	Marionette	INFO	Stopped listening on port 63052
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

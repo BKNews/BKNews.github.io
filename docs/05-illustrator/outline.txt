@@ -1,0 +1,25 @@
+🗳️ Tuesday, June 22 🗳️
+
+Creating graphics:
+    📊 Exporting SVG from matplotlib
+    📊 Exporting SVG from Altair
+    📊 Exporting SVG from Flourish
+
+Fixing up graphics:
+    🎨 White vs black arrow
+    🎨 Fill vs stroke
+    🎨 Selecting multiples
+    🎨 Menu system (Window menu)
+    🎨 Type changes (font, alignment, size)
+    🎨 Object alignment/distribution
+    🎨 Layers
+    🎨 Select all/Select same
+    🎨 Color selection tricks
+
+Using ai2html:
+    🛠️ Filling in the template
+    🛠️ What is exported?
+    🛠️ How hiding/showing works
+    🛠️ Unknown/custom fonts
+    🛠️ ai2html options
+    🛠️ Copying to other templates
