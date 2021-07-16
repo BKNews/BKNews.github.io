@@ -28,3 +28,7 @@ pages:
     title: Abandoned vehicles in NYC
     slug: 311ServiceCalls
     filepath: index.html
+  - type: raw
+    title: Elon Musk's Tweets and Tesla Stocks
+    slug: MuskTeslaCrypto
+    filepath: index.html
