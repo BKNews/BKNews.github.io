@@ -24,3 +24,7 @@ pages:
     title: homework
     slug: 05-illustrator
     filepath: index.html
+  - type: raw
+    title: Abandoned vehicles in NYC
+    slug: 311ServiceCalls
+    filepath: index.html
