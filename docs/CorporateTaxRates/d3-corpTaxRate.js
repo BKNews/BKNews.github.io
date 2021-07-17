@@ -2,7 +2,7 @@
   // Margin convention
   const margin = { top: 50, right: 30, bottom: 50, left: 120 }
   const width = 700 - margin.left - margin.right
-  const height = 1500 - margin.top - margin.bottom
+  const height = 800 - margin.top - margin.bottom
 
   // You'll probably need to edit this one
   const svg = d3.select("#chart").append("svg")
@@ -98,7 +98,14 @@
       console.log("tick tick tick")
       svg.selectAll('circle')
         .attr("cx", d => d.x)
-        .attr("cy", d => d.y)
+        .attr("cy", d => d.y);
+
+      // adding x-axis at the top
+      let xAxis = g => g
+      .attr("transform", `translate(0,${-margin.top/2})`)
+      .call(d3.axisTop(xPositionScale))
+      svg.append("g")
+      .call(xAxis);
     }
   }
 })();
