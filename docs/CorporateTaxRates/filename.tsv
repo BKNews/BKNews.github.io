@@ -1,0 +1,175 @@
+continent	country	rate	gdp
+Asia	Afghanistan	20.0	22.0
+Africa	Angola	30.0	101.2
+Europe	Albania	15.0	15.6
+South America	Argentina	30.0	456.1
+Asia	Armenia	18.0	14.1
+North America	Antigua and Barbuda	25.0	1.5
+Oceania	Australia	30.0	1542.4
+Europe	Austria	25.0	459.7
+Asia	Azerbaijan	20.0	61.5
+Africa	Burundi	30.0	2.4
+Europe	Belgium	25.0	545.7
+Africa	Benin	30.0	11.6
+Africa	Burkina Faso	28.0	15.6
+Asia	Bangladesh	25.0	220.6
+Europe	Bulgaria	10.0	65.0
+Europe	Bosnia and Herzegovina	10.0	21.4
+Europe	Belarus	18.0	65.8
+North America	Belize	25.0	1.7
+South America	Bolivia (Plurinational State of)	25.0	31.4
+South America	Brazil	34.0	2379.5
+North America	Barbados	5.5	4.8
+Asia	Brunei Darussalam	18.5	14.7
+Asia	Bhutan	30.0	2.7
+Africa	Botswana	22.0	19.6
+Africa	Central African Republic	30.0	1.8
+North America	Canada	26.47	1981.0
+Europe	Switzerland	21.148581	691.0
+South America	Chile	25.0	297.6
+Asia	China	25.0	12214.9
+Africa	Cote d'Ivoire	25.0	48.1
+Africa	Cameroon	33.0	41.2
+Africa	Democratic Republic of the Congo	35.0	38.8
+Africa	Congo	30.0	14.8
+South America	Colombia	32.0	402.9
+Africa	Cabo Verde	22.0	2.2
+North America	Costa Rica	30.0	51.9
+Europe	Cyprus	12.5	28.3
+Europe	Czechia	19.0	259.5
+Europe	Germany	29.897059	4021.0
+Africa	Djibouti	25.0	2.1
+North America	Dominica	25.0	0.5
+Europe	Denmark	22.0	376.5
+North America	Dominican Republic	27.0	91.0
+Africa	Algeria	26.0	209.8
+South America	Ecuador	25.0	88.6
+Africa	Egypt	22.5	311.9
+Africa	Eritrea	30.0	3.2
+Europe	Spain	25.0	1613.7
+Europe	Estonia	20.0	28.0
+Africa	Ethiopia	30.0	64.9
+Europe	Finland	20.0	276.5
+Oceania	Fiji	20.0	4.4
+Europe	France	32.02	3003.6
+Africa	Gabon	30.0	20.7
+Europe	United Kingdom of Great Britain and Northern Ireland	19.0	2935.6
+Asia	Georgia	15.0	18.0
+Africa	Ghana	25.0	60.5
+Africa	Guinea	35.0	12.7
+Africa	Gambia	31.0	1.3
+Africa	Guinea-Bissau	25.0	1.3
+Africa	Equatorial Guinea	35.0	12.8
+Europe	Greece	24.0	263.2
+North America	Grenada	28.0	1.1
+North America	Guatemala	25.0	57.9
+South America	Guyana	25.0	4.2
+Asia	China, Hong Kong Special Administrative Region	16.5	296.1
+North America	Honduras	25.0	22.7
+Europe	Croatia	18.0	68.4
+North America	Haiti	30.0	8.5
+Europe	Hungary	9.0	174.3
+Asia	Indonesia	25.0	1266.7
+Asia	India	30.0	3228.9
+Europe	Ireland	12.5	401.4
+Asia	Iran (Islamic Republic of)	25.0	512.3
+Asia	Iraq	15.0	219.2
+Europe	Iceland	20.0	18.7
+Asia	Israel	23.0	330.4
+Europe	Italy	27.81	2146.8
+North America	Jamaica	25.0	14.7
+Asia	Jordan	20.0	33.4
+Asia	Japan	29.74	6272.3
+Asia	Kazakhstan	20.0	216.8
+Africa	Kenya	30.0	69.1
+Asia	Kyrgyzstan	10.0	7.3
+Asia	Cambodia	20.0	22.3
+North America	Saint Kitts and Nevis	33.0	1.0
+Asia	Republic of Korea	27.5	1440.1
+Asia	Kuwait	15.0	146.3
+Asia	Lao People's Democratic Republic	24.0	14.3
+Asia	Lebanon	17.0	44.2
+Africa	Liberia	25.0	1.7
+Africa	Libya	20.0	55.0
+North America	Saint Lucia	30.0	1.6
+Asia	Sri Lanka	28.0	91.6
+Africa	Lesotho	25.0	3.0
+Europe	Lithuania	15.0	52.1
+Europe	Luxembourg	24.94	68.5
+Europe	Latvia	20.0	33.7
+Asia	China, Macao Special Administrative Region	12.0	39.4
+Africa	Morocco	31.0	131.1
+Europe	Republic of Moldova	12.0	8.6
+Africa	Madagascar	20.0	12.3
+Asia	Maldives	15.0	4.6
+North America	Mexico	30.0	1337.6
+Europe	The former Yugoslav Republic of Macedonia	10.0	12.0
+Africa	Mali	30.0	16.3
+Europe	Malta	35.0	14.9
+Asia	Myanmar	25.0	80.6
+Asia	Mongolia	25.0	14.7
+Africa	Mozambique	32.0	16.9
+Africa	Mauritania	25.0	6.6
+Africa	Mauritius	15.0	14.4
+Africa	Malawi	30.0	10.3
+Asia	Malaysia	24.0	415.7
+Africa	Namibia	32.0	15.2
+Africa	Niger	30.0	10.0
+Africa	Nigeria	30.0	488.4
+North America	Nicaragua	30.0	11.4
+Europe	Netherlands	25.0	977.1
+Europe	Norway	22.0	509.6
+Asia	Nepal	25.0	25.5
+Oceania	New Zealand	28.0	195.1
+Asia	Oman	15.0	79.6
+Asia	Pakistan	29.0	267.5
+North America	Panama	25.0	53.5
+South America	Peru	29.5	222.5
+Asia	Philippines	30.0	362.1
+Oceania	Papua New Guinea	30.0	21.2
+Europe	Poland	19.0	680.4
+North America	Puerto Rico	37.5	85.9
+Europe	Portugal	31.5	251.7
+South America	Paraguay	10.0	40.1
+Europe	Romania	16.0	240.0
+Europe	Russian Federation	20.0	1782.1
+Africa	Rwanda	30.0	11.6
+Asia	Saudi Arabia	20.0	726.9
+Africa	Sudan	35.0	80.8
+Africa	Senegal	30.0	27.9
+Asia	Singapore	17.0	330.2
+Oceania	Solomon Islands	30.0	1.0
+Africa	Sierra Leone	30.0	4.0
+North America	El Salvador	30.0	23.7
+Europe	Serbia	15.0	46.7
+Africa	Sao Tome and Principe	25.0	0.3
+South America	Suriname	36.0	4.8
+Europe	Slovakia	21.0	120.0
+Europe	Slovenia	19.0	59.1
+Europe	Sweden	21.4	604.6
+Africa	Swaziland	27.5	5.6
+Africa	Seychelles	33.0	1.5
+Asia	Syrian Arab Republic	28.0	35.5
+Africa	Chad	35.0	13.5
+Africa	Togo	27.0	5.9
+Asia	Thailand	20.0	471.7
+Asia	Tajikistan	23.0	10.7
+Asia	Turkmenistan	8.0	50.3
+Oceania	Tonga	25.0	0.4
+North America	Trinidad and Tobago	30.0	21.8
+Africa	Tunisia	25.0	53.6
+Asia	Turkey	22.0	1251.9
+Asia	Taiwan	20.0	562.9
+Africa	United Republic of Tanzania	30.0	58.8
+Africa	Uganda	30.0	31.7
+Europe	Ukraine	18.0	139.1
+South America	Uruguay	25.0	52.3
+North America	United States of America	25.766571	18637.9
+Asia	Uzbekistan	7.5	76.8
+North America	Saint Vincent and the Grenadines	30.0	0.8
+South America	Venezuela (Bolivarian Republic of)	34.0	106.5
+Asia	Viet Nam	20.0	212.9
+Oceania	Samoa	27.0	0.8
+Asia	Yemen	20.0	19.5
+Africa	South Africa	28.0	438.8
+Africa	Zambia	35.0	30.7

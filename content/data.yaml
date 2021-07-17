@@ -29,6 +29,10 @@ pages:
     slug: 311ServiceCalls
     filepath: index.html
   - type: raw
-    title: Elon Musk's Tweets and Tesla Stocks
+    title: Elon Musk's tweets and tesla stocks
     slug: MuskTeslaCrypto
+    filepath: index.html
+  - type: raw
+    title: Corporate tax rates worldwide in 2020
+    slug: CorporateTaxRates
     filepath: index.html

@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <style>
+      svg { 
+        background: #f9f9f9;
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1 { margin-bottom: 2rem; }
+
+      body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h3 { 
+        margin-top: 3rem; 
+        margin-bottom: 1rem;
+      }
+
+      .container {
+        max-width: 46rem;
+      }
+
+      img.block {
+        display: block;
+        border: solid #333 1p;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+</head>
+<body>
+<div class="container">
+  <h1>Corporate Tax Rates 2020</h1>
+  <p>Circles are proportional to the gross domestic product of 174 jurisdictions.</p>
+  <p>Tax rates ranged between 5.5% in Barbados and 37.5% in Puerto Rico. The median rate was 25%.</p>
+  <p>Corporations have been subject to declining tax rates since the 1980s, according to the Tax Foundation.</p> 
+  <p>
+    <button id="combined">Combined</button>
+    <button id="continent">By continent</button>
+  </p>
+  <div id="chart"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js" integrity="sha512-cd6CHE+XWDQ33ElJqsi0MdNte3S+bQY819f7p3NUHgwQQLXSKjE4cPZTeGNI+vaxZynk1wVU3hoHmow3m089wA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="d3-corpTaxRate.js"></script>
+</body>
+</html>
