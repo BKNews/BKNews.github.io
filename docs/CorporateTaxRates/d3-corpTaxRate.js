@@ -31,7 +31,7 @@
   // and we'll make sure they don't overlap
   const forceX = d3.forceX(d => xPositionScale(d.rate)).strength(2)
   const forceYSplit = d3.forceY(d => yPositionScale(d.continent))
-  const forceYCombined = d3.forceY(height / 2)
+  const forceYCombined = d3.forceY(height / 5)
   const forceCollide = d3.forceCollide(d => radiusScale(d.gdp) + 1)
   const simulation = d3.forceSimulation()
     .force("overlap", forceCollide)
@@ -48,13 +48,7 @@
 
     // Put a text element for every single sector
     // And space them out on the y axis according to the scale
-    svg.selectAll('text')
-      .data(continent)
-      .join('text')
-      .attr('text-anchor', 'end')
-      .attr('y', d => yPositionScale(d))
-      .attr('dx', -10)
-      .text(d => d)
+    
     svg.selectAll('circle')
       .data(datapoints)
       .join('circle')
@@ -63,7 +57,14 @@
       .attr('fill', d => colorScale(d.rate))
       .attr('cy', d => yPositionScale(d.continent))
       .attr('stroke', '#333333')
-    
+    svg.selectAll('text')
+      .data(continent)
+      .join('text')
+      .attr('text-anchor', 'end')
+      .attr('y', d => yPositionScale(d))
+      .attr('dx', -10)
+      .text(d => d)
+
     d3.select("#combined")
       .on('click', function () {
         // Substitute forceYCombined as our y force
@@ -71,13 +72,14 @@
         simulation.force("y", forceYCombined)
         // reheat the simulation (restart it)
         simulation
-          .alpha(0.1)
-          .alphaTarget(0.1)
+          .alpha(0.05)
+          .alphaTarget(0.05)
           .restart();
         svg.selectAll("text")
           .transition()
           .style('opacity', 0)
       })
+
       d3.select("#continent")
         .on('click', function () {
           // Substitute forceYCombined as our y force
@@ -92,6 +94,7 @@
             .transition()
             .style('opacity', 1)
           })
+
     simulation.nodes(datapoints)
       .on('tick', ticked)
     function ticked() {
