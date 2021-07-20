@@ -35,7 +35,7 @@
   const forceCollide = d3.forceCollide(d => radiusScale(d.gdp) + 1)
   const simulation = d3.forceSimulation()
     .force("overlap", forceCollide)
-    .force("y", forceYSplit)
+    .force("y", forceYCombined)
     .force("x", forceX)
   d3.tsv("filename.tsv")
     .then(ready)
