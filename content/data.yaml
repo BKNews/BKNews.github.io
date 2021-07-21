@@ -36,3 +36,7 @@ pages:
     title: Corporate tax rates worldwide in 2020
     slug: CorporateTaxRates
     filepath: index.html
+  - type: raw
+    title: Plotly
+    slug: Plotly
+    filepath: index.html
