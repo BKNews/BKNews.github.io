@@ -40,3 +40,7 @@ pages:
     title: Plotly
     slug: Plotly
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: BubbleGraph_HoverFunction
+    filepath: index.html
