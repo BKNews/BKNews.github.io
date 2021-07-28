@@ -44,3 +44,11 @@ pages:
     title: Sample
     slug: BubbleGraph_HoverFunction
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: Kim_dataVizTest_P1
+    filepath: index.html
+  - type: raw
+    title: Sample
+    slug: Kim_dataVizTest_P2
+    filepath: index.html

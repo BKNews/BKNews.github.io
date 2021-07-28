@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        body {
+            margin:auto;
+            padding:50px 10px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .serif {
+            font-family: 'Lora', serif;
+        }
+        .sans-serif {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* choose a light or dark theme to add to the body tag. */
+        .dark-theme {
+            background-color: #151515;
+            color: #fbfbfb;
+        }
+        .light-theme {
+            background-color: white;
+            color: black;
+        }
+
+        .header {
+            padding-top:20px;
+            padding-bottom:20px;
+        }
+
+        .story-body, .header, .chart-section, .footer {
+            margin:auto;
+            max-width: 700px;
+        }
+
+        .footer {
+            padding-top:20px;
+            padding-bottom:20px;
+        }
+
+        .chart-section.wide{
+            width:100%;
+            max-width:1200px;
+        }
+
+        .chart-section.wide p.chart-title {
+            width:100%;
+            max-width:700px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .chart-section.wide p.chart-subhead {
+            width:100%;
+            max-width:700px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+
+        /* text styles */
+
+        p.kicker {
+            font-size:1rem;
+            text-transform:uppercase;
+        }
+
+        .text-center {
+            text-align:center;
+        }
+
+        h1.headline {
+            font-size: 4rem;
+            line-height: 1.1;
+            margin-bottom: 0.25rem;
+            margin-top: 1rem;
+            font-weight: 800;
+        }
+
+        h2.subhead {
+            font-size: 1.4rem;
+            line-height: 2rem;
+            margin-bottom:0;
+            margin-top: 15px;
+            font-weight: 400;
+        }
+
+        p.body-text {
+            font-size: 1.1rem;
+            line-height: 1.4;
+            margin-top:15px;
+            margin-bottom:15px;
+        }
+
+        h3.section-head {
+            font-size:2rem;
+            margin:40px 0 10px 0;
+            font-weight:700;
+            line-height:1.3;
+        }
+
+        .byline {
+            font-size: 1.1rem;
+            line-height: 0.75;
+            margin-top: 1.5rem;
+            font-weight: 500;
+        }
+
+        .date {
+            font-size: 0.85rem;
+            line-height: 1;
+            margin-top: 10px;
+            font-weight:400;
+            text-transform:uppercase;
+            letter-spacing:0.5px;
+        }
+
+
+        p.note {
+            font-size:0.85rem;
+        }
+
+        /* chart styles */
+
+        .chart-section {
+            width:100%;
+            max-width:1200px;
+            padding:20px 0px;
+        }
+
+        .story-body .chart-section {
+            padding-top:0px;
+        }
+
+
+        .chart-row {
+            display:flex;
+            justify-content: space-between;
+            margin-top:20px;
+        }
+
+        p.chart-title {
+            font-size:1.3rem;
+            font-weight:700;
+            max-width:700px;
+            margin:0px auto 5px auto;
+        }
+        p.chart-subhead {
+            margin:0 auto;
+            max-width:700px;
+            font-size:1rem;
+            margin-bottom:15px;
+        }
+
+        p.chart-label {
+            margin:0 0 5px 0;
+            font-size:0.85rem;
+            text-transform:uppercase;
+            font-weight:600;
+        }
+
+        .chart-row .chart {
+            width:100%;
+            padding-right:15px;
+            min-width:calc(25% - 15px);
+
+        }
+
+
+
+        p.chart-source {
+            font-size:0.85rem;
+            margin:0;
+        }
+
+
+
+    </style>
+
+  
+    
+    <!-- google fonts: Open Sans (sans-serif) and Lora (serif) -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap" rel="stylesheet">
+      
+    <title>Data Viz Test</title>
+  </head>
+
+  <body class="light-theme"> <!-- all of the content on your html page goes inside the body -->
+
+    <div class="header"> 
+      <h1 class="headline">Data Viz Test</h1>
+      <!-- <h2 class="subhead">This is the subhead</h2> -->
+      <p class="byline"><b>BY LISA KIM</b></p>
+      <p class="byline">I made built this webpage using HTML and CSS</b></p>
+      <input type="button" onclick="location.href='https://bknews.github.io/Plotly/'" value="Part 2"/>
+    </div>
+
+    <div class="story-body">
+      <p class="body-text serif"><b><ins><big>Story Idea 1</big></ins></b></p>
+      <p class="body-text serif"><b>A thesis/ nut graf:</b></p>
+      <p class="body-text serif">There were more working age females than males on the East coast between 2012 and 2016, according to data analysis of the U.S. Census Bureau data.</p>
+      <p class="body-text serif">Working age refers to ages 18 to 64.</p>
+      <p class="body-text serif">• Most important question this story needs to address: <i>why</i> is America seeing such a clear divide?</p>
+    </div>
+    
+    <div class="story-body">
+        <p class="body-text serif"><b>Two ideas for charts:</b></p>
+<p class="body-text serif">1. Choropleth map</p>
+<p class="body-text serif">• Made this on Datawrapper</p>
+<p class="body-text serif">• Shows the clear gender divide in working age female and male Americans</p>
+</div>
+    <div style="text-align: center">
+    <iframe title="The East coast had more working age females than males" aria-label="Map" id="datawrapper-chart-qk6ME" src="https://datawrapper.dwcdn.net/qk6ME/4/" scrolling="no" frameborder="0" style="border: none;" width="650" height="525"></iframe>
+    </div>
+
+<div class="story-body">
+<p class="body-text serif">2. Parallel coordinates chart</p>
+<p class="body-text serif">• This is a chart I’d like to build</p>
+<p class="body-text serif">• The last -- or first to right -- line would represent where female and male Americans choose to settle down in after they retire</p>
+</div>
+
+<div style="text-align: center">
+<img src="viz_Parallel coordinates chart.png" width="500" height="300">
+</div>
+
+<div class="story-body">
+    <p class="body-text serif"><b>A list of additional information needed:</b></p>
+<p class="body-text serif">• Gender ratio per industry</p>
+<p class="body-text serif">• Speak to sociologists about the root cause of the divide</p>
+<p class="body-text serif">• Speak to economist studying gender about long-term implications of the divide </p>
+</div>
+<hr>
+<div class="story-body">
+    <p class="body-text serif"><b><ins><big>Story Idea 2</big></ins></b></p>
+    <p class="body-text serif"><b>A thesis/ nut graf:</b></p>
+    <p class="body-text serif">There were more eligible female voters than male voters in 46 states, according to data analysis of the U.S. Census Bureau data.</p>
+    <p class="body-text serif">Women played a key role in the 2020 election and propelled Joe Biden to the oval office.</p>
+    <p class="body-text serif">• A question this story could address: are politicans doing enough to court female voters, with agendas that are important to women?</p>
+    <p class="body-text serif">• A question this story could address: why are women disproportionately represented in politics? The U.S. ranked 25th in terms of representation of women politicians among 37 member countries of the Organization for Economic Co-operation and Development, the organization's data showed.</p>
+  </div>
+
+  <div class="story-body">
+    <p class="body-text serif"><b>Two ideas for charts:</b></p>
+<p class="body-text serif">1. Choropleth map</p>
+<p class="body-text serif">• Made this on Datawrapper</p>
+</div>
+<div style="text-align: center">
+<iframe title="Number of eligible female voters exceeded males in 46 states" aria-label="Map" id="datawrapper-chart-NvnGq" src="https://datawrapper.dwcdn.net/NvnGq/3/" scrolling="no" frameborder="0" style="border: none;" width="634" height="515"></iframe>
+</div>
+
+<div class="story-body">
+<p class="body-text serif">2. Sorted error bars</p>
+<p class="body-text serif">• This is a chart I’d like to build using Altair</p>
+<p class="body-text serif">• x-axis: number of legislations they've passed or suggested that specifically address women voters' concerns | y-axis: politicans </p>
+</div>
+    
+<div style="text-align: center">
+<img src="visualization (3).png" width="500" height="300">
+</div>
+
+<div class="story-body">
+    <p class="body-text serif"><b>A list of additional information needed:</b></p>
+<p class="body-text serif">• Scrape bills</p>
+<p class="body-text serif">• Speak to political analysts and political science professors</p>
+</div>
+
+<hr>
+
+<div class="story-body">
+    <p class="body-text serif"><b><ins><big>Story Idea 3</big></ins></b></p>
+    <p class="body-text serif"><b>A thesis/ nut graf:</b></p>
+    <p class="body-text serif">The Midwest and the west coast look to be where children under the age 5 are concentrated, with the demographic standing for more than the countrywide median in those regions, according to data analysis of the U.S. Census Bureau data.</p>
+    <p class="body-text serif">• A question this story could address: why are we seeing this pattern?</p>
+    <p class="body-text serif">• A question this story could address: is the pattern possibly tied to the coastal gender divide in the U.S.?</p>
+  </div>
+
+  <div class="story-body">
+    <p class="body-text serif"><b>Two ideas for charts:</b></p>
+<p class="body-text serif">1. Choropleth map</p>
+<p class="body-text serif">• Made this on Datawrapper</p>
+</div>
+
+  <div style="text-align: center">
+    <iframe title="Looking to start a family? These states had higher ratios of children under 5 years old than the countrywide median" aria-label="Map" id="datawrapper-chart-xtr4m" src="https://datawrapper.dwcdn.net/xtr4m/5/" scrolling="no" frameborder="0" style="border: none;" width="600" height="551"></iframe>
+    </div>
+    
+    <div class="story-body">
+    <p class="body-text serif">2. Stripplot</p>
+    <p class="body-text serif">• A chart I’d like to build using Altair</p>
+    <p class="body-text serif">• x-axis: 50 states | y-axis: population between the ages 0 - 10</p>
+    </div>
+    
+    <div style="text-align: center">
+    <img src="visualization (4).png" width="500" height="300">
+    </div>
+    
+    <div class="story-body">
+        <p class="body-text serif"><b>A list of additional information needed:</b></p>
+    <p class="body-text serif">• Speak to demographer about why states in the Midwest and the west coast have higher ratios of children aged 5 and under</p>
+    <p class="body-text serif">• Speak to economist about how this demographic pattern impact the economy in the Midwest and west coast </p>
+    </div>
+
+    <div class="header"> 
+    <input type="button" onclick="location.href='https://bknews.github.io/Plotly/'" value="Part 2"/>
+    </div>
+
+  </body>
+</html>
