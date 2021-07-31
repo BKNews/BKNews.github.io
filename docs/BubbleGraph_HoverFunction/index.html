@@ -22,13 +22,13 @@ h1 {margin-bottom: 2rem;}
 
 body {padding-top: 0rem;
       padding-bottom: 1rem;
-      margin-left: 2rem;}
+      margin-left: 7rem;}
 
 h2 { margin-bottom: 1rem;
   font-size: 14px;
   font-weight: normal;}
 
-.container {max-width: 40rem;}
+.container {max-width: 200rem;}
 
 </style>
 
@@ -46,9 +46,9 @@ h2 { margin-bottom: 1rem;
 
 <script>
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 10, bottom: 30, left: 40},
-    width = 500 - margin.left - margin.right,
-    height = 420 - margin.top - margin.bottom;
+var margin = {top: 10, right: 10, bottom: 20, left: 40},
+    width = 1000 - margin.left - margin.right,
+    height = 700 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -78,7 +78,7 @@ d3.csv("corpTaxRate_Historic_Population_new.csv", function(data) {
 
   // Add Y axis
   var y = d3.scaleLinear()
-    .domain([0, 70])
+    .domain([0, 45])
     .range([ height, 0]);
   svg.append("g")
     .call(d3.axisLeft(y))
@@ -105,10 +105,10 @@ d3.csv("corpTaxRate_Historic_Population_new.csv", function(data) {
     .append("div")
       .style("opacity", 0)
       .attr("class", "tooltip")
-      .style("background-color", "black")
+      .style("background-color", "bisque")
       .style("border-radius", "5px")
       .style("padding", "10px")
-      .style("color", "white")
+      .style("color", "black")
 
   // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
   var showTooltip = function(d) {
@@ -117,7 +117,7 @@ d3.csv("corpTaxRate_Historic_Population_new.csv", function(data) {
       .duration(100)
     tooltip
       .style("opacity", 1)
-      .html("Country: " + d.country + "<br />"  + "Population: " + d.population)
+      .html("Country: " + d.country + "<br />"  + "Population: " + d.population + "<br />"  + "Tax rate: " + d.rate+"%")
       .style("left", (d3.mouse(this)[0]+30) + "px")
       .style("top", (d3.mouse(this)[1]+30) + "px")
   }
