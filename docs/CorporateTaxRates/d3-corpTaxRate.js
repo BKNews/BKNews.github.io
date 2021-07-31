@@ -26,6 +26,7 @@
   const radiusScale = d3.scaleSqrt()
     .domain([0, 1000])
     .range([0, 10])
+
   // hey!!
   // let's simulate how these datapoints interact
   // and we'll make sure they don't overlap
@@ -64,6 +65,7 @@
       .attr('y', d => yPositionScale(d))
       .attr('dx', -10)
       .text(d => d)
+      .attr('opacity', 0)
 
     d3.select("#combined")
       .on('click', function () {
@@ -90,6 +92,7 @@
             .alpha(0.1)
             .alphaTarget(0.1)
             .restart();
+
             svg.selectAll("text")
             .transition()
             .style('opacity', 1)
