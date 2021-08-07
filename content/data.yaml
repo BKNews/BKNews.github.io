@@ -48,3 +48,7 @@ pages:
     title: Sample
     slug: D3_ScrollyTelling_InteractiveHistogram
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: webMap
+    filepath: index.html
