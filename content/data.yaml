@@ -52,3 +52,7 @@ pages:
     title: Sample
     slug: webMap
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: twoKoreas
+    filepath: index.html
