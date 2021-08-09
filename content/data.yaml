@@ -54,5 +54,5 @@ pages:
     filepath: index.html
   - type: raw
     title: Sample
-    slug: twoKoreas
+    slug: twoKoreas_bubbleChart
     filepath: index.html
