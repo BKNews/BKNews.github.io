@@ -60,3 +60,7 @@ pages:
     title: Sample
     slug: HawaiiPhysicians
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: genderRepresentation
+    filepath: index.html
