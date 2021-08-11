@@ -56,3 +56,7 @@ pages:
     title: Sample
     slug: PPP_Loan
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: HawaiiPhysicians
+    filepath: index.html
