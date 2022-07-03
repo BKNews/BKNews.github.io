@@ -68,3 +68,7 @@ pages:
     title: Sample
     slug: restaurantsNYC
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: KpopETF
+    filepath: index.html
