@@ -72,7 +72,11 @@ pages:
     title: Sample
     slug: KpopETF
     filepath: index.html
- - type: raw
+  - type: raw
     title: Sample
     slug: GPIFFees2021
+    filepath: index.html
+  - type: raw
+    title: Sample
+    slug: genderRepresentationAM
     filepath: index.html
