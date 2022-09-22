@@ -80,3 +80,7 @@ pages:
     title: Sample
     slug: genderRepresentationAM
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: MiraeSamsung
+    filepath: index.html
