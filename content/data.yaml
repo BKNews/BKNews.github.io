@@ -84,3 +84,11 @@ pages:
     title: Sample
     slug: MiraeSamsung
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: JapanActiveETFs
+    filepath: index.html
+  - type: raw
+    title: Sample
+    slug: ChinaJapan
+    filepath: index.html
