@@ -92,3 +92,7 @@ pages:
     title: Sample
     slug: ChinaJapan
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: KICCoalInvestment
+    filepath: index.html
