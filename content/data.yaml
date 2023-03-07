@@ -96,3 +96,7 @@ pages:
     title: Sample
     slug: KICCoalInvestment
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: formerMeritzAMCEO
+    filepath: index.html
