@@ -100,3 +100,7 @@ pages:
     title: Sample
     slug: formerMeritzAMCEO
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: PoorESGdata
+    filepath: index.html
