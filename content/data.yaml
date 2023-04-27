@@ -104,3 +104,11 @@ pages:
     title: Sample
     slug: PoorESGdata
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: CryptoFuturesETF
+    filepath: index.html
+  - type: raw
+    title: Sample
+    slug: UBS-CSChinaJVs
+    filepath: index.html
