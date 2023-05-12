@@ -112,3 +112,7 @@ pages:
     title: Sample
     slug: UBS-CSChinaJVs
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: HSBCAM_CEO_Interview
+    filepath: index.html
