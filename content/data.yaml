@@ -116,3 +116,7 @@ pages:
     title: Sample
     slug: HSBCAM_CEO_Interview
     filepath: index.html
+  - type: raw
+    title: Sample
+    slug: NomuraAM_CIO_Interview
+    filepath: index.html
